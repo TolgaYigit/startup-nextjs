@@ -34,14 +34,17 @@ module.exports = {
       // => @media (min-width: 1400px) { ... }
     },
     extend: {
+      fontFamily: {
+        namu: ['"NAMU"', "sans-serif"],
+      },
       colors: {
         current: "currentColor",
         transparent: "transparent",
         white: "#FFFFFF",
-        black: "#121723",
+        black: "#333",
         dark: "#1D2430",
-        primary: "#4A6CF7",
-        yellow: "#FBB040",
+        primary: "#8CB717",
+        orange: "#FF4101",
         "bg-color-dark": "#171C28",
         "body-color": {
           DEFAULT: "#788293",

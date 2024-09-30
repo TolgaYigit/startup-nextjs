@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
 
 const Header = () => {
@@ -43,8 +42,8 @@ const Header = () => {
       <header
         className={`header left-0 top-0 z-40 flex w-full items-center ${
           sticky
-            ? "fixed z-[9999] bg-white !bg-opacity-80 shadow-sticky backdrop-blur-sm transition dark:bg-gray-dark dark:shadow-sticky-dark"
-            : "absolute bg-transparent"
+            ? "fixed z-[9999] bg-white !bg-opacity-100 text-base shadow-sticky backdrop-blur-sm transition dark:bg-gray-dark dark:shadow-sticky-dark"
+            : "absolute bg-transparent text-white"
         }`}
       >
         <div className="container">
@@ -57,7 +56,11 @@ const Header = () => {
                 } `}
               >
                 <Image
-                  src="/images/logo/logo-gray.svg"
+                  src={
+                    sticky
+                      ? "/images/logo/logo-gray.svg"
+                      : "/images/logo/logo-white.svg"
+                  }
                   alt="logo"
                   width={155}
                   height={50}
@@ -82,7 +85,7 @@ const Header = () => {
                 >
                   <span
                     className={`relative my-1.5 block h-0.5 w-[30px] bg-black transition-all duration-300 dark:bg-white ${
-                      navbarOpen ? " top-[7px] rotate-45" : " "
+                      navbarOpen ? "top-[7px] rotate-45" : " "
                     }`}
                   />
                   <span
@@ -113,7 +116,7 @@ const Header = () => {
                             className={`flex py-2 text-base lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 ${
                               usePathName === menuItem.path
                                 ? "text-primary dark:text-white"
-                                : "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
+                                : "hover:text-primary dark:hover:text-white"
                             }`}
                           >
                             {menuItem.title}
@@ -122,7 +125,7 @@ const Header = () => {
                           <>
                             <p
                               onClick={() => handleSubmenu(index)}
-                              className="flex cursor-pointer items-center justify-between py-2 text-base text-dark group-hover:text-primary dark:text-white/70 dark:group-hover:text-white lg:mr-0 lg:inline-flex lg:px-0 lg:py-6"
+                              className="flex cursor-pointer items-center justify-between py-2 text-base group-hover:text-primary dark:text-white/70 dark:group-hover:text-white lg:mr-0 lg:inline-flex lg:px-0 lg:py-6"
                             >
                               {menuItem.title}
                               <span className="pl-3">

@@ -55,7 +55,7 @@ const menuData: Menu[] = [
     id: 5,
     title: "Level Test",
     newTab: true,
-    path: "https://linguaprimeacademy.com/level-test",
+    path: "/level-test",
   },
   {
     id: 6,

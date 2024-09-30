@@ -23,18 +23,13 @@ const Hero = () => {
                       Lingua Prime Academy
                     </h1>
                     <p className="text-body-color-light mb-12 text-base !leading-relaxed sm:text-lg md:text-xl">
-                      Esse amet esse sunt dolore mollit pariatur ullamco officia
-                      occaecat adipisicing voluptate dolor Lorem. Qui minim
-                      occaecat enim laboris exercitation eu ad tempor consequat
-                      officia sit aliquip eu. Eu consectetur non tempor aliquip
-                      nulla amet id non incididunt est incididunt aliqua aliqua
-                      deserunt. Laborum do duis mollit ad incididunt tempor quis
-                      voluptate aute. Ipsum qui nostrud et in eiusmod incididunt
-                      excepteur Lorem anim officia nisi proident ex ullamco. Non
-                      amet veniam Lorem dolore ex ullamco mollit sunt ad ex
-                      consequat.
+                      With personalized guidance and proven strategies, our
+                      Expert English Coaching gives you the skills and
+                      confidence to succeed in every exam. Let us help you turn
+                      your dreams into reality as you move closer to achieving
+                      your goals ❤️
                     </p>
-                    <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
+                    {/* <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                       <Link
                         href=""
                         className="rounded-sm bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
@@ -47,7 +42,7 @@ const Hero = () => {
                       >
                         Star on GitHub
                       </Link>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>

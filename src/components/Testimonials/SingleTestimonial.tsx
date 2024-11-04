@@ -1,8 +1,7 @@
 import { Testimonial } from "@/types/testimonial";
-import Image from "next/image";
 
 const SingleTestimonial = ({ testimonial }: { testimonial: Testimonial }) => {
-  const { star, name, image, content } = testimonial;
+  const { designation, name, content } = testimonial;
 
   return (
     <div className="w-full">
@@ -15,6 +14,7 @@ const SingleTestimonial = ({ testimonial }: { testimonial: Testimonial }) => {
             <h3 className="mb-1 text-lg font-semibold text-dark dark:text-white lg:text-base xl:text-lg">
               {name}
             </h3>
+            <p className="text-sm text-body-color">{designation}</p>
           </div>
         </div>
       </div>

@@ -4,6 +4,7 @@ import Blog from "@/components/Blog";
 import Brands from "@/components/Brands";
 import ScrollUp from "@/components/Common/ScrollUp";
 import Contact from "@/components/Contact";
+import Courses from "@/components/Courses";
 import Features from "@/components/Features";
 import Hero from "@/components/Hero";
 import Pricing from "@/components/Pricing";
@@ -23,14 +24,17 @@ export default function Home() {
       <ScrollUp />
       <Hero />
       <Features />
-      <Video />
-      <Brands />
-      <AboutSectionOne />
-      <AboutSectionTwo />
+      {/* <Video /> */}
+      {/* <Brands /> */}
+      {/* <AboutSectionOne />
+      <AboutSectionTwo /> */}
+      <Courses />
       <Testimonials />
-      <Pricing />
+      {/* <Pricing /> */}
       <Blog />
       <Contact />
     </>
   );
 }
+
+// TODO: Type of courses as a component

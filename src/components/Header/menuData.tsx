@@ -13,44 +13,45 @@ const menuData: Menu[] = [
     path: "/about",
     newTab: false,
   },
-  {
-    id: 3,
-    title: "Courses",
-    // path: "/courses",
-    newTab: false,
-    submenu: [
-      {
-        id: 31,
-        title: "Converstaional English",
-        path: "/courses/conversational-english",
-        newTab: false,
-      },
-      {
-        id: 32,
-        title: "Business English",
-        path: "/courses/business-english",
-        newTab: false,
-      },
-      {
-        id: 33,
-        title: "Exam Preparation",
-        path: "/courses/exam-preparation",
-        newTab: false,
-      },
-      {
-        id: 34,
-        title: "Grammar Video Course",
-        path: "/courses/grammar-video-course",
-        newTab: false,
-      },
-    ],
-  },
-  {
-    id: 4,
-    title: "Reviews",
-    path: "/reviews",
-    newTab: false,
-  },
+  // {
+  //   id: 3,
+  //   title: "Courses",
+  //   // path: "/courses",
+  //   newTab: false,
+  //   submenu: [
+  //     {
+  //       id: 31,
+  //       title: "Conversational English",
+  //       path: "/courses/conversational-english",
+  //       newTab: false,
+  //     },
+  //     {
+  //       id: 32,
+  //       title: "Business English",
+  //       path: "/courses/business-english",
+  //       newTab: false,
+  //     },
+  //     {
+  //       id: 33,
+  //       title: "Exam Preparation",
+  //       path: "/courses/exam-preparation",
+  //       newTab: false,
+  //     },
+  //     {
+  //       id: 34,
+  //       title: "Grammar Video Course",
+  //       path: "/courses/grammar-video-course",
+  //       newTab: false,
+  //     },
+  //   ],
+  // },
+  // {
+  //   id: 4,
+  //   title: "Reviews",
+  //   path: "/reviews",
+  //   newTab: false,
+  // },
+  // TODO: Level test redirect to external link
   {
     id: 5,
     title: "Level Test",
@@ -63,12 +64,12 @@ const menuData: Menu[] = [
     newTab: false,
     path: "/contact",
   },
-  {
-    id: 7,
-    title: "FAQ",
-    newTab: false,
-    path: "/faq",
-  },
+  // {
+  //   id: 7,
+  //   title: "FAQ",
+  //   newTab: false,
+  //   path: "/faq",
+  // },
   // {
   //   id: 33,
   //   title: "Blog",

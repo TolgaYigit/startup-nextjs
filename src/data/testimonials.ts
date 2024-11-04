@@ -1,12 +1,12 @@
 import { Testimonial } from "@/types/testimonial";
 
 const testimonialData: Testimonial[] = [
-  {
-    name: "Tuğba",
-    designation: "Business English student from Prague, Czechia",
-    content:
-      "Thanks to the lessons I took with Pelin, English is no longer a problem in my business life. I feel more comfortable and confident while working and communicating with my colleagues.",
-  },
+  // {
+  //   name: "Tuğba",
+  //   designation: "Business English student from Prague, Czechia",
+  //   content:
+  //     "Thanks to the lessons I took with Pelin, English is no longer a problem in my business life. I feel more comfortable and confident while working and communicating with my colleagues.",
+  // },
   {
     name: "Rabia",
     designation: "IELTS Life Skills Student",

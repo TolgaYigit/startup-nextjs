@@ -9,7 +9,7 @@ const Testimonials = () => {
       <div className="container">
         <SectionTitle title="What Our Students Say" paragraph="" center />
 
-        <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2">
+        <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-3">
           {testimonialData.map((testimonial, index) => (
             <SingleTestimonial key={index} testimonial={testimonial} />
           ))}

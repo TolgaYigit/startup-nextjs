@@ -51,18 +51,18 @@ const menuData: Menu[] = [
   //   path: "/reviews",
   //   newTab: false,
   // },
-  // TODO: Level test redirect to external link
-  {
-    id: 5,
-    title: "Level Test",
-    newTab: true,
-    path: "/level-test",
-  },
+
   {
     id: 6,
     title: "Contact",
     newTab: false,
     path: "/contact",
+  },
+  {
+    id: 5,
+    title: "Book a Trial Lesson",
+    newTab: true,
+    path: "https://docs.google.com/forms/d/e/1FAIpQLSeVua27su8EzQWvU8xvnyCEHjyvzyTjh0H0xJhV2aeM-rglNw/viewform",
   },
   // {
   //   id: 7,

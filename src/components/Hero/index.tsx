@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <>
       <section id="home" className="relative z-10 overflow-hidden">
-        <div className="w-screen bg-black">
+        <div className="h-screen w-screen bg-black">
           <Image
             src="/images/pnt/heroImage.jpg"
             alt="hero"

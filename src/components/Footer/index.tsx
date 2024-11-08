@@ -5,7 +5,7 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <>
-      <footer className="bg-orange relative z-10 pt-16 dark:bg-gray-dark md:pt-20 lg:pt-24">
+      <footer className="relative z-10 bg-orange pt-16 dark:bg-gray-dark md:pt-20 lg:pt-24">
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
@@ -26,10 +26,10 @@ const Footer = () => {
                     height={30}
                   />
                 </Link>
-                <p className="dark:text-gray-light-dark mb-9 text-base leading-relaxed text-gray-light">
+                {/* <p className="dark:text-gray-light-dark mb-9 text-base leading-relaxed text-gray-light">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Integer lobortis.
-                </p>
+                </p> */}
                 <div className="flex items-center">
                   <a
                     href="/"
@@ -109,7 +109,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
+            {/* <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-white dark:text-white">
                   Useful Links
@@ -141,9 +141,9 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
-            </div>
+            </div> */}
 
-            <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
+            {/* <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-white dark:text-white">
                   Terms
@@ -175,9 +175,9 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
-            </div>
+            </div> */}
 
-            <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-3/12">
+            {/* <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-3/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-white dark:text-white">
                   Support & Help
@@ -209,12 +209,12 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
-            </div>
+            </div> */}
           </div>
 
           <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
         </div>
-        <div className="absolute right-0 top-14 z-[-1]">
+        {/* <div className="absolute right-0 top-14 z-[-1]">
           <svg
             width="55"
             height="99"
@@ -403,7 +403,7 @@ const Footer = () => {
               </linearGradient>
             </defs>
           </svg>
-        </div>
+        </div> */}
       </footer>
     </>
   );

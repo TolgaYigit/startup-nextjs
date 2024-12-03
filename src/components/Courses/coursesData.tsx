@@ -13,7 +13,7 @@ export const coursesData: Course[] = [
   {
     title: "Exam Preparation",
     paragraph:
-      "Prepare for English proficiency exams. This course provides comprehensive training for exams like IELTS, TOEFL, and Cambridge English. You'll practice reading, writing, listening, and speaking skills, with tips and strategies to achieve high scores.",
+      "Prepare for English proficiency exams. This course provides comprehensive training for exams like IELTS, TOEFL, and Cambridge English. You'll practice Reading, Writing, Listening, and Speaking skills, with tips and strategies to achieve high scores.",
   },
   {
     title: "Intensive Exam Preparation",

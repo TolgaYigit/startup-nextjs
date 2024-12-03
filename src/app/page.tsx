@@ -14,7 +14,6 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "LinguaPrimeAcademy",
-  description: "This is Home for Startup Nextjs Template",
   // other metadata
 };
 
@@ -23,16 +22,16 @@ export default function Home() {
     <>
       <ScrollUp />
       <Hero />
+      <AboutSectionOne />
       <Features />
       {/* <Video /> */}
       <Courses />
       <Brands />
-      {/* <AboutSectionOne />
-      <AboutSectionTwo /> */}
+      {/* <AboutSectionTwo /> */}
       <Testimonials />
       {/* <Pricing /> */}
       {/* <Blog /> */}
-      <Contact />
+      {/* <Contact /> */}
     </>
   );
 }

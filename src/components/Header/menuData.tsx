@@ -1,18 +1,18 @@
 import { Menu } from "@/types/menu";
 
 const menuData: Menu[] = [
-  {
-    id: 1,
-    title: "Home",
-    path: "/",
-    newTab: false,
-  },
-  {
-    id: 2,
-    title: "About Us",
-    path: "/about",
-    newTab: false,
-  },
+  // {
+  //   id: 1,
+  //   title: "Home",
+  //   path: "/",
+  //   newTab: false,
+  // },
+  // {
+  //   id: 2,
+  //   title: "About Us",
+  //   path: "/about",
+  //   newTab: false,
+  // },
   // {
   //   id: 3,
   //   title: "Courses",
@@ -52,12 +52,12 @@ const menuData: Menu[] = [
   //   newTab: false,
   // },
 
-  {
-    id: 6,
-    title: "Contact",
-    newTab: false,
-    path: "/contact",
-  },
+  // {
+  //   id: 6,
+  //   title: "Contact",
+  //   newTab: false,
+  //   path: "/contact",
+  // },
   {
     id: 5,
     title: "Book a Trial Lesson",
